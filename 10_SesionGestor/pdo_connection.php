@@ -1,6 +1,6 @@
 <?php
 
-//PARA CONECTARSE (POR EJEMPLO) A UNA DB EN MYSQL, CAMBIAMOS PUERTO Y CONTRASEÑA -EN ESTE CASO-
+// Definimos los valores de la conexion
 
 $serverName = "localhost";
 $database = "tareas_omar";

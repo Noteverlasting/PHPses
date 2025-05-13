@@ -5,7 +5,7 @@ session_start();
 // Declarar $_SESSION con nombre y le asignamos un numero binario random de 32 bytes.
 $_SESSION ['sessionToken'] = bin2hex(random_bytes(32));
 // Llamar a la conexion
-require_once 'conexion.php';
+require_once '../pdo_connection.php';
 
 
 
